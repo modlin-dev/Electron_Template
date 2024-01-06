@@ -1,0 +1,27 @@
+{
+  "name": "electron_app",
+  "description": "Electron Application Biolerplate",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "author": "Modlin",
+  "license": "MIT",
+  "scripts": {
+    "test": "electron ."
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "invalid"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/electron-squirrel-startup": "^1.0.2",
+    "electron": "^28.1.1",
+    "electron-squirrel-startup": "^1.0.0"
+  },
+  "keywords": [
+    "Electron",
+    "Chromium"
+  ]
+}
